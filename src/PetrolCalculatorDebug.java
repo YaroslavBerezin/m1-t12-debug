@@ -13,7 +13,7 @@ public class PetrolCalculatorDebug {
         double volume = scanner.nextDouble();
         System.out.print("Введите скидку в диапазоне 0..100 => ");
         double discount = scanner.nextDouble() / 100;
-
+        
         if (petrolType == 1) {
             Ai92Calculator calculator = new Ai92Calculator();
             double price = calculator.calculate(volume, discount);
